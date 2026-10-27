@@ -1,0 +1,16 @@
+# build output and packaging
+build/
+dist/
+
+# local runtime artifacts
+tp_gestures.ini
+tp_gestures.suppress
+*.log
+
+# compiled helpers (tools/ sources are tracked, binaries are not)
+*.exe
+*.o
+*.obj
+
+# agent workspace
+.workbuddy/
